@@ -3,13 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAA63CE31AF25933008A8AFF /* CrystalAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63CE21AF25933008A8AFF /* CrystalAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA868DC91AF36CC500728D59 /* CADictionaryRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA868DC81AF36CC500728D59 /* CADictionaryRepresentation.h */; };
+		BA868DCC1AF3729300728D59 /* CADictionaryKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = BA868DCA1AF3729300728D59 /* CADictionaryKeys.h */; };
+		BA868DCD1AF3729300728D59 /* CADictionaryKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = BA868DCB1AF3729300728D59 /* CADictionaryKeys.m */; };
+		BAA525051AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA525031AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA525061AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA525041AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.m */; };
+		BAA525091AF4CA8F0027038F /* CANetworkEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA525071AF4CA8F0027038F /* CANetworkEndpoints.h */; };
+		BAA5250A1AF4CA8F0027038F /* CANetworkEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA525081AF4CA8F0027038F /* CANetworkEndpoints.m */; };
 		BAA63CE91AF25933008A8AFF /* CrystalAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA63CDD1AF25933008A8AFF /* CrystalAnalytics.framework */; };
 		BAA63CF01AF25933008A8AFF /* CrystalAnalyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63CEF1AF25933008A8AFF /* CrystalAnalyticsTests.m */; };
+		BAA63D001AF259B6008A8AFF /* CrystalAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63CFE1AF259B6008A8AFF /* CrystalAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA63D011AF259B6008A8AFF /* CrystalAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63CFF1AF259B6008A8AFF /* CrystalAnalytics.m */; };
+		BAA63D041AF25A5B008A8AFF /* CABaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D021AF25A5B008A8AFF /* CABaseEvent.h */; };
+		BAA63D051AF25A5B008A8AFF /* CABaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D031AF25A5B008A8AFF /* CABaseEvent.m */; };
+		BAA63D081AF25B9A008A8AFF /* CANetworkConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D061AF25B9A008A8AFF /* CANetworkConstants.h */; };
+		BAA63D091AF25B9A008A8AFF /* CANetworkConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D071AF25B9A008A8AFF /* CANetworkConstants.m */; };
+		BAA63D0C1AF25CC2008A8AFF /* CASession.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D0A1AF25CC2008A8AFF /* CASession.h */; };
+		BAA63D0D1AF25CC2008A8AFF /* CASession.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D0B1AF25CC2008A8AFF /* CASession.m */; };
+		BAA63D101AF25CD1008A8AFF /* CAEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D0E1AF25CD1008A8AFF /* CAEvent.h */; };
+		BAA63D111AF25CD1008A8AFF /* CAEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D0F1AF25CD1008A8AFF /* CAEvent.m */; };
+		BAA63D1A1AF25D18008A8AFF /* CAPurchaseEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D181AF25D18008A8AFF /* CAPurchaseEvent.h */; };
+		BAA63D1B1AF25D18008A8AFF /* CAPurchaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D191AF25D18008A8AFF /* CAPurchaseEvent.m */; };
+		BAA63D1E1AF25D5E008A8AFF /* CAViewEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D1C1AF25D5E008A8AFF /* CAViewEvent.h */; };
+		BAA63D1F1AF25D5E008A8AFF /* CAViewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D1D1AF25D5E008A8AFF /* CAViewEvent.m */; };
+		BAA63D221AF25D6B008A8AFF /* CAScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D201AF25D6B008A8AFF /* CAScreenView.h */; };
+		BAA63D231AF25D6B008A8AFF /* CAScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D211AF25D6B008A8AFF /* CAScreenView.m */; };
+		BAA63D261AF25D75008A8AFF /* CAGlanceView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D241AF25D75008A8AFF /* CAGlanceView.h */; };
+		BAA63D271AF25D75008A8AFF /* CAGlanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D251AF25D75008A8AFF /* CAGlanceView.m */; };
+		BAA63D2A1AF25DAD008A8AFF /* CANetworkHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA63D281AF25DAD008A8AFF /* CANetworkHandler.h */; };
+		BAA63D2B1AF25DAD008A8AFF /* CANetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA63D291AF25DAD008A8AFF /* CANetworkHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +49,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA868DC81AF36CC500728D59 /* CADictionaryRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADictionaryRepresentation.h; sourceTree = "<group>"; };
+		BA868DCA1AF3729300728D59 /* CADictionaryKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADictionaryKeys.h; sourceTree = "<group>"; };
+		BA868DCB1AF3729300728D59 /* CADictionaryKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADictionaryKeys.m; sourceTree = "<group>"; };
+		BAA525031AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceController+CrystalAnalytics.h"; sourceTree = "<group>"; };
+		BAA525041AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceController+CrystalAnalytics.m"; sourceTree = "<group>"; };
+		BAA525071AF4CA8F0027038F /* CANetworkEndpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANetworkEndpoints.h; sourceTree = "<group>"; };
+		BAA525081AF4CA8F0027038F /* CANetworkEndpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANetworkEndpoints.m; sourceTree = "<group>"; };
 		BAA63CDD1AF25933008A8AFF /* CrystalAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrystalAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA63CE11AF25933008A8AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAA63CE21AF25933008A8AFF /* CrystalAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalAnalytics.h; sourceTree = "<group>"; };
 		BAA63CE81AF25933008A8AFF /* CrystalAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA63CEE1AF25933008A8AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA63CEF1AF25933008A8AFF /* CrystalAnalyticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalAnalyticsTests.m; sourceTree = "<group>"; };
+		BAA63CFE1AF259B6008A8AFF /* CrystalAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrystalAnalytics.h; sourceTree = "<group>"; };
+		BAA63CFF1AF259B6008A8AFF /* CrystalAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrystalAnalytics.m; sourceTree = "<group>"; };
+		BAA63D021AF25A5B008A8AFF /* CABaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABaseEvent.h; sourceTree = "<group>"; };
+		BAA63D031AF25A5B008A8AFF /* CABaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABaseEvent.m; sourceTree = "<group>"; };
+		BAA63D061AF25B9A008A8AFF /* CANetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANetworkConstants.h; sourceTree = "<group>"; };
+		BAA63D071AF25B9A008A8AFF /* CANetworkConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANetworkConstants.m; sourceTree = "<group>"; };
+		BAA63D0A1AF25CC2008A8AFF /* CASession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASession.h; sourceTree = "<group>"; };
+		BAA63D0B1AF25CC2008A8AFF /* CASession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASession.m; sourceTree = "<group>"; };
+		BAA63D0E1AF25CD1008A8AFF /* CAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEvent.h; sourceTree = "<group>"; };
+		BAA63D0F1AF25CD1008A8AFF /* CAEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEvent.m; sourceTree = "<group>"; };
+		BAA63D181AF25D18008A8AFF /* CAPurchaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPurchaseEvent.h; sourceTree = "<group>"; };
+		BAA63D191AF25D18008A8AFF /* CAPurchaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPurchaseEvent.m; sourceTree = "<group>"; };
+		BAA63D1C1AF25D5E008A8AFF /* CAViewEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAViewEvent.h; sourceTree = "<group>"; };
+		BAA63D1D1AF25D5E008A8AFF /* CAViewEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAViewEvent.m; sourceTree = "<group>"; };
+		BAA63D201AF25D6B008A8AFF /* CAScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScreenView.h; sourceTree = "<group>"; };
+		BAA63D211AF25D6B008A8AFF /* CAScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAScreenView.m; sourceTree = "<group>"; };
+		BAA63D241AF25D75008A8AFF /* CAGlanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGlanceView.h; sourceTree = "<group>"; };
+		BAA63D251AF25D75008A8AFF /* CAGlanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGlanceView.m; sourceTree = "<group>"; };
+		BAA63D281AF25DAD008A8AFF /* CANetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANetworkHandler.h; sourceTree = "<group>"; };
+		BAA63D291AF25DAD008A8AFF /* CANetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CANetworkHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +123,9 @@
 		BAA63CDF1AF25933008A8AFF /* CrystalAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				BAA63CE21AF25933008A8AFF /* CrystalAnalytics.h */,
+				BAA63CFB1AF25972008A8AFF /* Network */,
+				BAA63CFA1AF2596A008A8AFF /* Interface */,
+				BAA63CF91AF25963008A8AFF /* Model */,
 				BAA63CE01AF25933008A8AFF /* Supporting Files */,
 			);
 			path = CrystalAnalytics;
@@ -102,6 +156,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BAA63CF91AF25963008A8AFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA868DCA1AF3729300728D59 /* CADictionaryKeys.h */,
+				BA868DCB1AF3729300728D59 /* CADictionaryKeys.m */,
+				BA868DC81AF36CC500728D59 /* CADictionaryRepresentation.h */,
+				BAA63D131AF25CDC008A8AFF /* Sessions */,
+				BAA63D121AF25CD5008A8AFF /* Events */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAA63CFA1AF2596A008A8AFF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				BAA63CFE1AF259B6008A8AFF /* CrystalAnalytics.h */,
+				BAA63CFF1AF259B6008A8AFF /* CrystalAnalytics.m */,
+				BAA525031AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.h */,
+				BAA525041AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.m */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		BAA63CFB1AF25972008A8AFF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BAA63D061AF25B9A008A8AFF /* CANetworkConstants.h */,
+				BAA63D071AF25B9A008A8AFF /* CANetworkConstants.m */,
+				BAA63D281AF25DAD008A8AFF /* CANetworkHandler.h */,
+				BAA63D291AF25DAD008A8AFF /* CANetworkHandler.m */,
+				BAA525071AF4CA8F0027038F /* CANetworkEndpoints.h */,
+				BAA525081AF4CA8F0027038F /* CANetworkEndpoints.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		BAA63D121AF25CD5008A8AFF /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				BAA63D021AF25A5B008A8AFF /* CABaseEvent.h */,
+				BAA63D031AF25A5B008A8AFF /* CABaseEvent.m */,
+				BAA63D0E1AF25CD1008A8AFF /* CAEvent.h */,
+				BAA63D0F1AF25CD1008A8AFF /* CAEvent.m */,
+				BAA63D181AF25D18008A8AFF /* CAPurchaseEvent.h */,
+				BAA63D191AF25D18008A8AFF /* CAPurchaseEvent.m */,
+				BAA63D1C1AF25D5E008A8AFF /* CAViewEvent.h */,
+				BAA63D1D1AF25D5E008A8AFF /* CAViewEvent.m */,
+				BAA63D201AF25D6B008A8AFF /* CAScreenView.h */,
+				BAA63D211AF25D6B008A8AFF /* CAScreenView.m */,
+				BAA63D241AF25D75008A8AFF /* CAGlanceView.h */,
+				BAA63D251AF25D75008A8AFF /* CAGlanceView.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		BAA63D131AF25CDC008A8AFF /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				BAA63D0A1AF25CC2008A8AFF /* CASession.h */,
+				BAA63D0B1AF25CC2008A8AFF /* CASession.m */,
+			);
+			name = Sessions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +227,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAA63CE31AF25933008A8AFF /* CrystalAnalytics.h in Headers */,
+				BAA63D1A1AF25D18008A8AFF /* CAPurchaseEvent.h in Headers */,
+				BAA525051AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.h in Headers */,
+				BAA525091AF4CA8F0027038F /* CANetworkEndpoints.h in Headers */,
+				BAA63D081AF25B9A008A8AFF /* CANetworkConstants.h in Headers */,
+				BA868DCC1AF3729300728D59 /* CADictionaryKeys.h in Headers */,
+				BAA63D041AF25A5B008A8AFF /* CABaseEvent.h in Headers */,
+				BAA63D1E1AF25D5E008A8AFF /* CAViewEvent.h in Headers */,
+				BAA63D2A1AF25DAD008A8AFF /* CANetworkHandler.h in Headers */,
+				BAA63D261AF25D75008A8AFF /* CAGlanceView.h in Headers */,
+				BAA63D101AF25CD1008A8AFF /* CAEvent.h in Headers */,
+				BAA63D221AF25D6B008A8AFF /* CAScreenView.h in Headers */,
+				BAA63D001AF259B6008A8AFF /* CrystalAnalytics.h in Headers */,
+				BA868DC91AF36CC500728D59 /* CADictionaryRepresentation.h in Headers */,
+				BAA63D0C1AF25CC2008A8AFF /* CASession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +289,9 @@
 		BAA63CD41AF25932008A8AFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CA;
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = crystalanalytics;
+				ORGANIZATIONNAME = CrystalAnalytics;
 				TargetAttributes = {
 					BAA63CDC1AF25933008A8AFF = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -170,7 +302,7 @@
 				};
 			};
 			buildConfigurationList = BAA63CD71AF25932008A8AFF /* Build configuration list for PBXProject "CrystalAnalytics" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -209,6 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA868DCD1AF3729300728D59 /* CADictionaryKeys.m in Sources */,
+				BAA63D231AF25D6B008A8AFF /* CAScreenView.m in Sources */,
+				BAA63D271AF25D75008A8AFF /* CAGlanceView.m in Sources */,
+				BAA63D111AF25CD1008A8AFF /* CAEvent.m in Sources */,
+				BAA5250A1AF4CA8F0027038F /* CANetworkEndpoints.m in Sources */,
+				BAA63D011AF259B6008A8AFF /* CrystalAnalytics.m in Sources */,
+				BAA63D091AF25B9A008A8AFF /* CANetworkConstants.m in Sources */,
+				BAA63D0D1AF25CC2008A8AFF /* CASession.m in Sources */,
+				BAA525061AF43E1C0027038F /* WKInterfaceController+CrystalAnalytics.m in Sources */,
+				BAA63D2B1AF25DAD008A8AFF /* CANetworkHandler.m in Sources */,
+				BAA63D051AF25A5B008A8AFF /* CABaseEvent.m in Sources */,
+				BAA63D1F1AF25D5E008A8AFF /* CAViewEvent.m in Sources */,
+				BAA63D1B1AF25D18008A8AFF /* CAPurchaseEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +543,7 @@
 				BAA63CF51AF25933008A8AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA63CF61AF25933008A8AFF /* Build configuration list for PBXNativeTarget "CrystalAnalyticsTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +552,7 @@
 				BAA63CF81AF25933008A8AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
